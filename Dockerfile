@@ -12,6 +12,7 @@ FROM mcr.microsoft.com/azure-sql-edge:latest
 # ENV ACCEPT_EULA=Y \
 #     SA_PASSWORD=Udensi11#
 
+USER root
 ENV ACCEPT_EULA=1
 ENV MSSQL_SA_PASSWORD=Udensi11
 

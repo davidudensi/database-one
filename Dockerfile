@@ -7,6 +7,7 @@
 # Azure SQL Edge option
 FROM mcr.microsoft.com/azure-sql-edge:latest
 
+USER root
 ENV ACCEPT_EULA=Y \
     SA_PASSWORD=Udensi11#
 
